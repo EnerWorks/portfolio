@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next'
-import { FaGithub, FaEnvelope } from 'react-icons/fa6'
+import { FaLinkedin, FaEnvelope } from 'react-icons/fa6'
 
-const EMAIL = 'enerworks@proton.me'
-const GITHUB = 'https://github.com/EnerWorks'
+const EMAIL = 'your-email@example.com'
+const LINKEDIN = 'https://www.linkedin.com/in/yousefchazli'
 
 const linkClass =
   'inline-flex items-center gap-2 border-b border-dotted border-accent text-accent hover:text-text'
@@ -19,8 +19,8 @@ export default function Contact() {
         <a href={`mailto:${EMAIL}`} className={linkClass}>
           <FaEnvelope aria-hidden="true" /> {t('contact.email')}
         </a>
-        <a href={GITHUB} target="_blank" rel="noopener noreferrer" className={linkClass}>
-          <FaGithub aria-hidden="true" /> GitHub
+        <a href={LINKEDIN} target="_blank" rel="noopener noreferrer" className={linkClass}>
+          <FaLinkedin aria-hidden="true" /> LinkedIn
         </a>
       </div>
     </section>
