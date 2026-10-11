@@ -14,23 +14,23 @@ export default function LanguageSwitcher() {
     <label className="relative inline-flex items-center">
       <FaGlobe
         aria-hidden="true"
-        className="pointer-events-none absolute left-3 text-neutral-400"
+        className="pointer-events-none absolute left-3 text-subtext"
       />
       <select
         value={i18n.resolvedLanguage}
         onChange={(e) => i18n.changeLanguage(e.target.value)}
         aria-label="Language"
-        className="appearance-none rounded-full bg-neutral-800 py-1.5 pl-9 pr-9 text-sm text-neutral-200 hover:bg-neutral-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400"
+        className="appearance-none rounded-full bg-surface py-1.5 pl-9 pr-9 text-sm text-text hover:bg-surface/70 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:py-2 sm:text-[1rem]"
       >
         {languages.map(({ code, label }) => (
-          <option key={code} value={code} className="bg-neutral-900">
+          <option key={code} value={code} className="bg-base">
             {label}
           </option>
         ))}
       </select>
       <FaChevronDown
         aria-hidden="true"
-        className="pointer-events-none absolute right-3 text-xs text-neutral-400"
+        className="pointer-events-none absolute right-3 text-xs text-subtext"
       />
     </label>
   )

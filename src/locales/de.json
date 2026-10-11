@@ -39,13 +39,13 @@
   "lookingFor": "Suchst du meine Projekte?",
   "checkOut": "Hier findest du sie.",
   "elsewhere": "Du findest mich auch hier",
-  "card": {
+ "card": {
   "title": "ener@portfolio",
   "rows": [
-    { "label": "Rolle", "value": "Angehender DevOps-Engineer" },
     { "label": "Fokus", "value": "Linux, Docker, CI/CD" },
     { "label": "Werkzeuge", "value": "Git, VS Code, React" },
-    { "label": "Aktuell", "value": "Netzwerke und Automatisierung" }
+    { "label": "Aktuell", "value": "Netzwerke und Automatisierung" },
+    { "label": "Sprachen", "value": "Arabisch (Muttersprache), Englisch (B1), Deutsch und Französisch (ich lerne)" }
   ]
 }
 },

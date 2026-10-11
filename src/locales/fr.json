@@ -42,10 +42,10 @@
   "card": {
   "title": "ener@portfolio",
   "rows": [
-    { "label": "Rôle", "value": "Futur ingénieur DevOps" },
     { "label": "Domaine", "value": "Linux, Docker, CI/CD" },
     { "label": "Outils", "value": "Git, VS Code, React" },
-    { "label": "En cours", "value": "Réseaux et automatisation" }
+    { "label": "En cours", "value": "Réseaux et automatisation" },
+    { "label": "Langues", "value": "Arabe (langue maternelle), anglais (B1), allemand et français (en apprentissage)" }
   ]
 }
 },

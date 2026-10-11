@@ -42,10 +42,10 @@
   "card": {
   "title": "ener@portfolio",
   "rows": [
-    { "label": "Role", "value": "Aspiring DevOps engineer" },
     { "label": "Focus", "value": "Linux, Docker, CI/CD" },
     { "label": "Tools", "value": "Git, VS Code, React" },
-    { "label": "Learning", "value": "Networking and automation" }
+    { "label": "Learning", "value": "Networking and automation" },
+    { "label": "Languages", "value": "Arabic (native), English (B1), German and French (learning)" }
   ]
 }
 },
