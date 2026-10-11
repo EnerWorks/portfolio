@@ -1,6 +1,5 @@
-import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { FaBoxOpen, FaGithub } from 'react-icons/fa6'
+import { FaGithub } from 'react-icons/fa6'
 import RotatingText from '../components/RotatingText'
 import InfoCard from '../components/InfoCard'
 
@@ -14,7 +13,7 @@ export default function About() {
   return (
     <section className="mx-auto max-w-3xl px-4 pb-16 pt-20 sm:pt-28">
       <div className="font-mono">
-       <p className="text-sm text-subtext sm:text-[1rem]" aria-hidden="true">
+        <p className="text-sm text-subtext sm:text-[1rem]" aria-hidden="true">
           <span className="text-teal">~</span>{' '}
           <span className="text-accent">$</span> ./hello.sh
         </p>
@@ -36,14 +35,6 @@ export default function About() {
       <div className="mt-10">
         <InfoCard />
       </div>
-
-      <p className="mt-8 text-lg sm:text-xl">
-        <FaBoxOpen aria-hidden="true" className="mr-2 inline text-accent" />
-        {t('about.lookingFor')}{' '}
-        <Link to="/projects" className={`font-medium ${linkClass}`}>
-          {t('about.checkOut')}
-        </Link>
-      </p>
 
       <hr className="my-12 border-surface" />
 
