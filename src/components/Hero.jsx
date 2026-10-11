@@ -6,9 +6,7 @@ export default function Hero() {
     <section className="p-8">
       <h1 className="text-3xl font-bold">{t('hero.title')}</h1>
       <p>{t('hero.subtitle')}</p>
-      <button onClick={() => i18n.changeLanguage('de')}>DE</button>
-      <button onClick={() => i18n.changeLanguage('fr')}>FR</button>
-      <button onClick={() => i18n.changeLanguage('en')}>EN</button>
+      <LanguageSwitcher />
     </section>
   )
 }
