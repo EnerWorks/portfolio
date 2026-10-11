@@ -19,9 +19,12 @@ export default function Projects() {
       {visible.length === 0 ? (
         <p className="text-lg text-subtext">{t('projects.empty')}</p>
       ) : (
-        <ul className="space-y-14">
+        <ul className="space-y-6">
           {visible.map((p) => (
-            <li key={p.id}>
+            <li
+              key={p.id}
+              className="rounded-xl border border-surface bg-surface/40 p-6 transition-colors hover:border-accent/50"
+            >
               <h2 className="text-2xl font-medium">
                 {t(`projects.items.${p.id}.name`)}
               </h2>
@@ -33,7 +36,7 @@ export default function Projects() {
                 {p.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="rounded-full bg-surface px-3 py-1 font-mono text-sm text-teal"
+                    className="rounded-full bg-base px-3 py-1 font-mono text-sm text-teal"
                   >
                     {tag}
                   </span>

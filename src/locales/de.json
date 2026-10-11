@@ -16,7 +16,20 @@
     }
   }
 }
-,"nav": { "about": "Über mich", "projects": "Projekte", "contact": "Kontakt" },
+,"nav": { "about": "Über mich", "projects": "Projekte", "learning": "Lernen", "contact": "Kontakt" },
+"learning": {
+  "title": "Lernen",
+  "intro": "Was ich gerade lerne und was als Nächstes kommt.",
+  "status": { "done": "Abgeschlossen", "learning": "Lerne ich", "planned": "Geplant" },
+  "items": {
+    "linux": { "name": "Linux", "note": "Kommandozeile, Dateisystem, Rechte und Dienste." },
+    "git": { "name": "Git", "note": "Commits, Branches und die Arbeit mit GitHub." },
+    "docker": { "name": "Docker", "note": "Images, Container und Docker Compose." },
+    "networking": { "name": "Netzwerkgrundlagen", "note": "IP, DNS, Ports und wie Datenverkehr fließt." },
+    "cicd": { "name": "CI/CD", "note": "Builds und Deployments automatisieren." },
+    "kubernetes": { "name": "Kubernetes", "note": "Container im großen Maßstab orchestrieren." }
+  }
+},
 "about": {
   "lines": [
     "Ich lerne DevOps, indem ich kleine Projekte baue und dokumentiere, was ich lerne.",
@@ -24,7 +37,17 @@
     "Aktuell baue ich kleine Projekte und dokumentiere sie."
   ],
   "lookingFor": "Suchst du meine Projekte?",
-  "checkOut": "Hier findest du sie."
+  "checkOut": "Hier findest du sie.",
+  "elsewhere": "Du findest mich auch hier",
+  "card": {
+  "title": "ener@portfolio",
+  "rows": [
+    { "label": "Rolle", "value": "Angehender DevOps-Engineer" },
+    { "label": "Fokus", "value": "Linux, Docker, CI/CD" },
+    { "label": "Werkzeuge", "value": "Git, VS Code, React" },
+    { "label": "Aktuell", "value": "Netzwerke und Automatisierung" }
+  ]
+}
 },
 "footer": { "rights": "Alle Rechte vorbehalten." },
 "contact": {

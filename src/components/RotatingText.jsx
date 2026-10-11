@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
-const INTERVAL = 9000
+const INTERVAL = 5000
 
 export default function RotatingText({ i18nKey, className = '' }) {
   const { t } = useTranslation()

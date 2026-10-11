@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { FaCircleUser, FaBoxOpen, FaEnvelope } from 'react-icons/fa6'
+import { FaCircleUser, FaBoxOpen, FaBookOpen, FaEnvelope } from 'react-icons/fa6'
 import LanguageSwitcher from './LanguageSwitcher'
 
 const links = [
   { to: '/', key: 'about', Icon: FaCircleUser },
   { to: '/projects', key: 'projects', Icon: FaBoxOpen },
+  { to: '/learning', key: 'learning', Icon: FaBookOpen },
   { to: '/contact', key: 'contact', Icon: FaEnvelope },
 ]
 
