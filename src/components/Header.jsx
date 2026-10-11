@@ -14,15 +14,15 @@ export default function Header() {
   const { t } = useTranslation()
   return (
     <header className="sticky top-0 z-10 bg-base/80 backdrop-blur">
-      <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-4">
-        <nav className="flex gap-2 overflow-x-auto">
+      <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-between gap-x-3 gap-y-2 px-4 py-3 sm:py-4">
+        <nav className="flex flex-wrap gap-2">
           {links.map(({ to, key, Icon }) => (
             <NavLink
               key={key}
               to={to}
               end={to === '/'}
               className={({ isActive }) =>
-                `inline-flex items-center gap-2 whitespace-nowrap rounded-full px-4 py-2 text-base transition-colors ${
+                `inline-flex items-center gap-2 whitespace-nowrap rounded-full px-3 py-1.5 text-sm transition-colors sm:px-4 sm:py-2 sm:text-[1rem] ${
                   isActive
                     ? 'bg-accent font-medium text-on-accent'
                     : 'bg-surface text-text hover:bg-surface/70'
