@@ -17,7 +17,7 @@ export default function Hero() {
           <FaGithub />
         </a>
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:enerworks@proton.me"
           aria-label="Email"
           className="hover:text-cyan-400"
         >
