@@ -16,4 +16,16 @@
     }
   }
 }
+,"nav": { "about": "Über mich", "projects": "Projekte", "contact": "Kontakt" },
+"about": {
+  "text": "Ich lerne DevOps, indem ich kleine Projekte baue und dokumentiere, was ich lerne.",
+  "lookingFor": "Suchst du meine Projekte?",
+  "checkOut": "Hier findest du sie."
+},
+"footer": { "rights": "Alle Rechte vorbehalten." },
+"contact": {
+  "title": "Kontakt",
+  "text": "Schreib mir gern eine E-Mail oder finde mich auf GitHub.",
+  "email": "E-Mail"
+}
 }

@@ -16,4 +16,16 @@
       }
     }
   }
+  ,"nav": { "about": "À propos", "projects": "Projets", "contact": "Contact" },
+"about": {
+  "text": "J'apprends le DevOps en construisant de petits projets et en documentant ce que j'apprends.",
+  "lookingFor": "Tu cherches mes projets ?",
+  "checkOut": "Découvre-les ici."
+},
+"footer": { "rights": "Tous droits réservés." },
+"contact": {
+  "title": "Contact",
+  "text": "Écris-moi par e-mail ou retrouve-moi sur GitHub.",
+  "email": "E-mail"
+}
 }

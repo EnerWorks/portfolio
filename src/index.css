@@ -12,6 +12,11 @@
   --color-subtext: #a6adc8;
   --color-accent: #89b4fa;
   --color-teal: #94e2d5;
+  --color-on-accent: #1e1e2e;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

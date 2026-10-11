@@ -1,15 +1,23 @@
-import Hero from './components/Hero'
-import Projects from './components/Projects'
-import LanguageSwitcher from './components/LanguageSwitcher'
+import { Routes, Route, Navigate } from 'react-router-dom'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
 
 export default function App() {
   return (
-    <>
-      <header className="mx-auto flex max-w-2xl justify-end px-4 pt-4">
-        <LanguageSwitcher />
-      </header>
-      <Hero />
-      <Projects />
-    </>
+    <div className="flex min-h-screen flex-col">
+      <Header />
+      <main className="flex-1">
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   )
 }
