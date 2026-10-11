@@ -1,12 +1,11 @@
 import { useTranslation } from 'react-i18next'
 
 export default function Hero() {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   return (
     <section className="p-8">
       <h1 className="text-3xl font-bold">{t('hero.title')}</h1>
       <p>{t('hero.subtitle')}</p>
-      <LanguageSwitcher />
     </section>
   )
 }
