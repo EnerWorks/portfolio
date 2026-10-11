@@ -18,7 +18,11 @@
   }
     ,"nav": { "about": "About", "projects": "Projects", "contact": "Contact" },
 "about": {
-  "text": "I'm learning DevOps by building small projects and documenting what I learn.",
+  "lines": [
+    "I'm learning DevOps by building small projects and documenting what I learn.",
+    "I like understanding how things work, from Linux to Docker.",
+    "Right now I'm building small projects and writing about them."
+  ],
   "lookingFor": "Looking for my projects?",
   "checkOut": "Check them out here."
 },

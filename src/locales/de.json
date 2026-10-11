@@ -18,7 +18,11 @@
 }
 ,"nav": { "about": "Über mich", "projects": "Projekte", "contact": "Kontakt" },
 "about": {
-  "text": "Ich lerne DevOps, indem ich kleine Projekte baue und dokumentiere, was ich lerne.",
+  "lines": [
+    "Ich lerne DevOps, indem ich kleine Projekte baue und dokumentiere, was ich lerne.",
+    "Ich möchte verstehen, wie Dinge funktionieren, von Linux bis Docker.",
+    "Aktuell baue ich kleine Projekte und dokumentiere sie."
+  ],
   "lookingFor": "Suchst du meine Projekte?",
   "checkOut": "Hier findest du sie."
 },
