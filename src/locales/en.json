@@ -1,3 +1,19 @@
 {
-  "hero": { "title": "Hi, I'm Yousef", "subtitle": "Aspiring DevOps engineer" }
+  "hero": { "title": "Hi, I'm Yousef", "subtitle": "Aspiring DevOps engineer" },
+  "projects": {
+    "title": "Projects",
+    "empty": "Projects are coming soon.",
+    "source": "Source code",
+    "demo": "Live demo",
+    "items": {
+      "portfolio": {
+        "name": "This portfolio",
+        "description": "A multilingual portfolio built with React, Vite, and Tailwind."
+      },
+      "example1": {
+        "name": "Example project",
+        "description": "Placeholder text for an example project."
+      }
+    }
+  }
 }

@@ -4,7 +4,7 @@ import { FaGithub, FaEnvelope } from 'react-icons/fa6'
 export default function Hero() {
   const { t } = useTranslation()
   return (
-    <section className="p-8">
+    <section className="mx-auto max-w-2xl px-4 pt-12">
       <h1 className="text-3xl font-bold">{t('hero.title')}</h1>
       <p>{t('hero.subtitle')}</p>
 

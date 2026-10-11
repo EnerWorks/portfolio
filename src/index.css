@@ -5,4 +5,16 @@
 @theme {
   --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+
+  --color-base: #1e1e2e;
+  --color-surface: #313244;
+  --color-text: #cdd6f4;
+  --color-subtext: #a6adc8;
+  --color-accent: #89b4fa;
+  --color-teal: #94e2d5;
+}
+
+body {
+  background-color: var(--color-base);
+  color: var(--color-text);
 }

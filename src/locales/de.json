@@ -1,3 +1,19 @@
 {
-  "hero": { "title": "Hallo, ich bin Yousef", "subtitle": "Angehender DevOps-Engineer" }
+  "hero": { "title": "Hallo, ich bin Yousef", "subtitle": "Angehender DevOps-Engineer" },
+  "projects": {
+  "title": "Projekte",
+  "empty": "Projekte folgen bald.",
+  "source": "Quellcode",
+  "demo": "Live-Demo",
+  "items": {
+    "portfolio": {
+      "name": "Dieses Portfolio",
+      "description": "Ein mehrsprachiges Portfolio, gebaut mit React, Vite und Tailwind."
+    },
+    "example1": {
+      "name": "Beispielprojekt",
+      "description": "Platzhaltertext für ein Beispielprojekt."
+    }
+  }
+}
 }
