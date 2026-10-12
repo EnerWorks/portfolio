@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa6'
 
-const EMAIL = 'ennerq@proton.me'
+const EMAIL = 'enerworks@proton.me'
 const LINKEDIN = 'https://www.linkedin.com/in/yousefchazli'
 
 const linkClass =
