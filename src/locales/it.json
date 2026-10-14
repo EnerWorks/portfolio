@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Ciao, sono Yousef",
+    "subtitle": "Aspirante ingegnere DevOps"
+  },
+  "nav": {
+    "about": "Chi sono",
+    "projects": "Progetti",
+    "learning": "Apprendimento",
+    "contact": "Contatti"
+  },
+  "about": {
+    "lines": [
+      "Sto imparando DevOps costruendo piccoli progetti e documentando ciò che imparo.",
+      "Mi piace capire come funzionano le cose, da Linux a Docker.",
+      "Al momento costruisco piccoli progetti e li documento."
+    ],
+    "elsewhere": "Trovami anche qui",
+    "card": {
+      "title": "ener@portfolio",
+      "rows": [
+        { "label": "Ambito", "value": "Linux, Docker, CI/CD" },
+        { "label": "Strumenti", "value": "Git, VS Code, React" },
+        { "label": "In corso", "value": "Reti e automazione" },
+        { "label": "Lingue", "value": "Arabo (madrelingua), inglese (B1), tedesco e francese (in apprendimento)" }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Progetti",
+    "empty": "Progetti in arrivo.",
+    "source": "Codice sorgente",
+    "demo": "Demo dal vivo",
+    "items": {
+      "portfolio": {
+        "name": "Questo portfolio",
+        "description": "Un portfolio multilingue creato con React, Vite e Tailwind."
+      },
+      "example1": {
+        "name": "Progetto di esempio",
+        "description": "Testo segnaposto per un progetto di esempio."
+      }
+    }
+  },
+  "learning": {
+    "title": "Apprendimento",
+    "intro": "Cosa sto imparando adesso e cosa verrà dopo.",
+    "status": {
+      "done": "Completato",
+      "learning": "In corso",
+      "planned": "Pianificato"
+    },
+    "items": {
+      "linux": { "name": "Linux", "note": "Riga di comando, file system, permessi e servizi." },
+      "git": { "name": "Git", "note": "Commit, branch e lavoro con GitHub." },
+      "docker": { "name": "Docker", "note": "Immagini, container e Docker Compose." },
+      "networking": { "name": "Reti", "note": "IP, DNS, porte e come scorre il traffico." },
+      "cicd": { "name": "CI/CD", "note": "Automatizzare build e deployment." },
+      "kubernetes": { "name": "Kubernetes", "note": "Orchestrare container su larga scala." }
+    }
+  },
+  "contact": {
+    "title": "Contatti",
+    "text": "Scrivimi pure via e-mail o connettiamoci su LinkedIn.",
+    "email": "E-mail"
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati."
+  }
+}

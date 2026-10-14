@@ -4,6 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 import en from './locales/en.json'
 import de from './locales/de.json'
 import fr from './locales/fr.json'
+import it from './locales/it.json'
 
 // Keep <html lang="..."> in sync with the selected language
 i18n.on('languageChanged', (lng) => {
@@ -18,9 +19,10 @@ i18n
       en: { translation: en },
       de: { translation: de },
       fr: { translation: fr },
+      it: { translation: it },
     },
     fallbackLng: 'en',
-    supportedLngs: ['en', 'de', 'fr'],
+    supportedLngs: ['en', 'de', 'fr', 'it'],
     nonExplicitSupportedLngs: true,
     interpolation: { escapeValue: false },
   })
